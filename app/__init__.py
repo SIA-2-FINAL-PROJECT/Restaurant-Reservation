@@ -11,6 +11,14 @@ from app.blueprint.user_info_blueprint import user_info_blp
 from app.blueprint.feedback_blueprint import feedback_blp
 from app.extension import db, migrate
 from config import Config
+from app.models import user_model
+from app.models import restaurant_model
+from app.models import table_number_model
+from app.models import reservation_model
+from app.models import user_info_model
+from app.models import feedback_model
+
+
 
 def create_app():
     # Create the Flask app instance
